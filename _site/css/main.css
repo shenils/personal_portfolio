@@ -1,0 +1,175 @@
+h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  text-transform: lowercase; }
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  text-transform: lowercase; }
+
+h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  text-transform: lowercase; }
+
+h4 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  text-transform: lowercase; }
+
+h5 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  text-transform: lowercase; }
+
+h6 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  text-transform: lowercase; }
+
+body {
+  font-family: arial; }
+
+.raw {
+  font-family: arial; }
+
+nav.navbar {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  text-transform: lowercase; }
+
+#navbar {
+  height: 10vmin;
+  background-color: black;
+  line-height: 10vmin; }
+  #navbar .brand, #navbar .brand:hover, #navbar .brand:visited, #navbar .brand:active {
+    color: white;
+    text-transform: lowercase;
+    font-size: 2vw;
+    margin: 0 1em 0 1em;
+    transition: transform 0.3s ease-in;
+    text-decoration: none; }
+  #navbar .brand:hover {
+    transform: scale(1.2);
+    color: white; }
+  #navbar .main-navi, #navbar .main-navi:hover, #navbar .main-navi:visited, #navbar .main-navi:active {
+    color: white;
+    text-transform: lowercase;
+    font-size: 2vw;
+    margin: 0 1em 0 1em;
+    transition: transform 0.3s ease-in;
+    text-decoration: none; }
+  #navbar .main-navi:hover {
+    transform: scale(1.2);
+    color: white; }
+
+footer {
+  margin: 2em 0 1em;
+  text-align: center; }
+
+#land .opening-page {
+  height: 90vmin;
+  background-image: url(../images/backgrounds/paper.jpg);
+  background-size: cover;
+  text-align: center;
+  font-family: 'Delius', cursive; }
+  #land .opening-page .textbox {
+    height: 60vmin;
+    position: relative;
+    top: 15vmin;
+    font-weight: 700;
+    border: 2px solid black; }
+    #land .opening-page .textbox h4 {
+      color: black; }
+  #land .opening-page img {
+    height: 60vmin;
+    position: relative;
+    top: 15vmin; }
+#land #gallery {
+  height: 90vmin;
+  background-image: url(../images/backgrounds/brick.jpg);
+  background-size: cover;
+  background-position: bottom;
+  text-align: center; }
+  #land #gallery .small-c {
+    position: relative;
+    top: 15vmin; }
+
+#projects {
+  background-image: url(../images/backgrounds/wood.jpg);
+  background-position: 0 10vmin;
+  background-size: contain;
+  height: 100vh;
+  font-family: "Lato", sans-serif;
+  color: white;
+  text-align: center; }
+  #projects .instruction {
+    margin: 7em 0 0;
+    padding: 0; }
+  #projects .project-space {
+    position: relative;
+    top: 10vmin;
+    background-color: transparent; }
+    #projects .project-space .project-frame {
+      height: 25vmin;
+      margin: 0 0 2em;
+      color: white; }
+      #projects .project-space .project-frame .black-back {
+        background-color: black;
+        height: 100%;
+        width: 100%; }
+      #projects .project-space .project-frame p {
+        margin: 1em 0 1em; }
+      #projects .project-space .project-frame img {
+        width: 100%;
+        height: 25vmin; }
+      #projects .project-space .project-frame .the-thumbnail {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0; }
+        #projects .project-space .project-frame .the-thumbnail:hover {
+          opacity: 0;
+          filter: alpha(opacity=0); }
+
+#contact {
+  background-image: url(../images/backgrounds/concrete-4.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  font-family: "Lato", sans-serif; }
+  #contact header {
+    border: 1px solid transparent; }
+  #contact .content-side h1 {
+    color: black;
+    text-align: center;
+    font-size: 4vw;
+    margin-top: 0; }
+  #contact .content-side h4 {
+    color: #020304; }
+  #contact .content-side .form-space {
+    color: black;
+    position: relative;
+    top: 20vmin; }
+    #contact .content-side .form-space .btn-success {
+      background-color: black;
+      border-color: black; }
+  #contact .content-side .social-icons {
+    text-align: center;
+    font-size: 4em;
+    margin-top: 4em; }
+    #contact .content-side .social-icons a, #contact .content-side .social-icons a:hover {
+      color: black;
+      margin: 0 1em 0 1em; }
+  #contact .picture-side {
+    position: relative;
+    text-align: center;
+    color: black; }
+    #contact .picture-side .live-map {
+      position: relative;
+      top: 15vmin;
+      border: 5px solid black; }
+      #contact .picture-side .live-map .the-map {
+        width: 100%;
+        height: 60vmin; }

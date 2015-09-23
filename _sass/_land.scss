@@ -1,0 +1,45 @@
+#land {
+  // background-color: red;
+
+  .opening-page {
+    height: 90vmin;
+    background-image: url(../images/backgrounds/paper.jpg);
+    background-size: cover;
+    text-align: center;
+    font-family: 'Delius', cursive;
+
+    .textbox {
+      height: 60vmin;
+      position: relative;
+      top: 15vmin;
+      font-weight: 700;
+      border: 2px solid black;
+
+      h4 {
+        color: black;
+      }
+    }
+
+    img {
+      height: 60vmin;
+      position: relative;
+      top: 15vmin;
+      // bottom: 25vmin;
+    }
+  }
+
+  #gallery {
+    height: 90vmin;
+    background-image: url(../images/backgrounds/brick.jpg);
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    
+    .small-c {
+      position: relative;
+      top: 15vmin;
+      // width: 100vmin;
+      // height: 30vmin;  
+    }
+  }
+}
